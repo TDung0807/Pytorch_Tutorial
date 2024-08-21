@@ -16,3 +16,5 @@ tensor_d = tensor_a.multiply(tensor_b)
 # Add tensor_c to tensor_d
 tensor_e = tensor_c + tensor_d
 print(tensor_e)
+
+print(tensor_e[0].item())
